@@ -1,0 +1,40 @@
+body {
+    margin: 0px;
+}
+
+.page-block {
+    display: block;
+}
+
+#header {
+    font-family: Rockwell, Arial, Helvetica, sans-serif;
+    padding: 40px 0px 30px 0px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+#header .title {
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+#header .subtitle {
+    font-size: 16px;
+}
+
+#content {
+    display: block;
+    width: 100%;
+}
+
+#content .background {
+    display: block;
+    width: 100%;
+}
+
+#content .logo {
+    position: absolute;
+    top: 175px;
+    right: 30px;
+}

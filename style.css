@@ -1,5 +1,7 @@
 body {
     margin: 0px;
+    background-color: black;
+    font-family: Rockwell, Arial, Helvetica, sans-serif;
 }
 
 .page-block {
@@ -7,7 +9,6 @@ body {
 }
 
 #header {
-    font-family: Rockwell, Arial, Helvetica, sans-serif;
     padding: 40px 0px 30px 0px;
     text-align: center;
     background-color: black;
@@ -37,4 +38,44 @@ body {
     position: absolute;
     top: 175px;
     right: 30px;
+    width: 120px;
+}
+
+#content .photos {
+    text-align: center;
+    /* margin-top: 50px; */
+    margin-bottom: 10px;
+}
+
+#content .photos img {
+    width: 30%;
+    min-width: 200px;
+    border-radius: 4%;
+    margin: 1%;
+}
+
+.footer {
+    display: block;
+    width: 75%;
+    margin: auto;
+    color: #ccc;
+    font-size: 14px;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.copyright {
+    display: block;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }

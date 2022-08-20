@@ -42,16 +42,19 @@ body {
 }
 
 #content .photos {
-    text-align: center;
-    /* margin-top: 50px; */
+    display: block;
+    text-align: left;
     margin-bottom: 10px;
+    width: 75%;
+    margin: auto;
 }
 
 #content .photos img {
     width: 30%;
-    min-width: 200px;
+    /* min-width: 150px; */
     border-radius: 4%;
-    margin: 1%;
+    margin-right: 3%;
+    margin-bottom: 2%;
 }
 
 .footer {
@@ -59,14 +62,15 @@ body {
     width: 75%;
     margin: auto;
     color: #ccc;
-    font-size: 14px;
+    font-size: 0.9em;
     text-align: left;
+    margin-top: 20px;
     margin-bottom: 50px;
 }
 
 .copyright {
     display: block;
-    font-size: 12px;
+    font-size: 0.8em;
     text-align: center;
     margin-top: 80px;
 }

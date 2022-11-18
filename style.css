@@ -17,18 +17,41 @@ body {
 
 #header .logo {
     margin-bottom: 16px;
-    width: 10%;
-    min-width: 60px;
-    max-width: 120px;
+    width: 40%;
+    min-width: 180px;
+    max-width: 360px;
 }
 
 #header .title {
     font-size: 32px;
     padding-bottom: 10px;
+    letter-spacing: 30px;
+    margin-left: 30px;
 }
 
 #header .subtitle {
     font-size: 14px;
+    letter-spacing: 10px;
+    margin-left: 10px;
+}
+
+.navbar {
+    color: #333;
+}
+
+.navbar a {
+    display: inline-block;
+    padding: 14px 20px 8px 20px;
+    font-size: 16px;
+    color: #fdf6e5;
+    /* text-transform: uppercase; */
+    /* letter-spacing: 1px; */
+}
+
+.navbar a:hover, .navbar .selected {
+    text-decoration: none;
+    background-color: #666;
+    border-radius: 22px;
 }
 
 #content {
@@ -47,14 +70,81 @@ body {
 
 .cube {
     display: inline-block;
-    width: 29%;
     border-radius: 4%;
     margin-left: 1.5%;
     margin-right: 1.5%;
     margin-bottom: 2%;
     aspect-ratio: 1 / 1;
-    background-color: #555;
     color: white;
+    width: 29%;
+}
+
+.product {
+    display: inline-block;
+    border-radius: 4%;
+    margin: 1%;
+    aspect-ratio: 1 / 1;
+    color: white;
+    background-color: #222;
+    width: 45%
+}
+
+.product-details {
+    display: block;
+    text-align: left;
+    color: white;
+    padding: 8px 8px 8px 16px;
+}
+
+.product img {
+    display: inline-block;
+    border-radius: 4%;
+    aspect-ratio: 1 / 1;
+    width: 100%;
+    background-color: #333;
+}
+
+.product-title {
+    font-size: 1.3em;
+}
+
+.product-description {
+    font-size: 0.8em;
+    color: #ccc;
+}
+
+.product-price {
+    font-size: 0.9em;
+    display: block;
+    padding-top: 6px;
+}
+
+.product-text {
+    float: left;
+}
+
+.product-buy {
+    float: right;
+    margin-bottom: 8px;
+}
+
+.product-buy-button {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.25);
+    border-radius: 22px;
+    padding: 12px 17px 7px 17px;
+    color: #fdf6e5;
+    margin: 5px;
+}
+
+.product-buy-button:hover {
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.centered {
+    display: block;
+    text-align: center;
 }
 
 .cube-block {
@@ -88,6 +178,7 @@ body {
     border-radius: 22px;
     padding: 15px 20px 10px 20px;
     color: white;
+    margin: 5px;
 }
 
 .product-button:hover {
